@@ -132,6 +132,13 @@ class.
                 )
             return _DB
 
+ 3. Go to the top of the ``app.py`` file and modify ``from chalicelib.db import InMemoryTodoDB`` to reference ``db`` instead:
+ 
+    .. code-block:: python
+
+        from chalicelib import db
+
+
 
 Verification
 ~~~~~~~~~~~~
